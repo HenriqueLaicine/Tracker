@@ -1,12 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Title from "../Components/Title";
 
-export default class Home extends React.Component{
+export default class Title extends React.Component{
     render(){
         return(
             <View style={styles.container}>
-                
                 <Text>Home</Text>
             </View>
         )
@@ -15,7 +13,8 @@ export default class Home extends React.Component{
 
 const styles = StyleSheet.create({
     container:{
-        flex: 1,
+        backgroundColor: "green",
+        flex: 0.2,
         justifyContent: 'center',
         alignItems: 'center',
     }
